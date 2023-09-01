@@ -1,4 +1,10 @@
+import { TelephoneNumber } from '../telephone-number';
+
 export class Person {
+  constructor() {
+    this._telephoneNumber = new TelephoneNumber();
+  }
+
   get name() {
     return this._name;
   }
