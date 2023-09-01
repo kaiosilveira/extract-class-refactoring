@@ -26,10 +26,10 @@ export class Person {
   }
 
   get officeNumber() {
-    return this._officeNumber;
+    return this._telephoneNumber._officeNumber;
   }
 
   set officeNumber(arg) {
-    this._officeNumber = arg;
+    this._telephoneNumber._officeNumber = arg;
   }
 }
