@@ -14,7 +14,7 @@ export class Person {
   }
 
   get telephoneNumber() {
-    return this._telephoneNumber.telephoneNumber;
+    return this._telephoneNumber.toString();
   }
 
   get officeAreaCode() {

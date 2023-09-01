@@ -1,5 +1,5 @@
 export class TelephoneNumber {
-  get telephoneNumber() {
+  toString() {
     return `(${this.areaCode}) ${this.number}`;
   }
 
