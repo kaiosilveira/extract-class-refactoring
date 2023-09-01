@@ -1,14 +1,14 @@
 export class TelephoneNumber {
   get telephoneNumber() {
-    return `(${this.officeAreaCode}) ${this.officeNumber}`;
+    return `(${this.areaCode}) ${this.officeNumber}`;
   }
 
-  get officeAreaCode() {
-    return this._officeAreaCode;
+  get areaCode() {
+    return this._areaCode;
   }
 
-  set officeAreaCode(arg) {
-    this._officeAreaCode = arg;
+  set areaCode(arg) {
+    this._areaCode = arg;
   }
 
   get officeNumber() {

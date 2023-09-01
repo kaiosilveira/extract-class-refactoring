@@ -18,11 +18,11 @@ export class Person {
   }
 
   get officeAreaCode() {
-    return this._telephoneNumber.officeAreaCode;
+    return this._telephoneNumber.areaCode;
   }
 
   set officeAreaCode(arg) {
-    this._telephoneNumber.officeAreaCode = arg;
+    this._telephoneNumber.areaCode = arg;
   }
 
   get officeNumber() {
