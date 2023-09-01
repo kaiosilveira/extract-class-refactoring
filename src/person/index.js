@@ -14,7 +14,7 @@ export class Person {
   }
 
   get telephoneNumber() {
-    return `(${this.officeAreaCode}) ${this.officeNumber}`;
+    return this._telephoneNumber.telephoneNumber;
   }
 
   get officeAreaCode() {
