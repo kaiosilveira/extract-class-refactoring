@@ -1,6 +1,6 @@
 export class TelephoneNumber {
   get telephoneNumber() {
-    return `(${this.areaCode}) ${this.officeNumber}`;
+    return `(${this.areaCode}) ${this.number}`;
   }
 
   get areaCode() {
@@ -11,11 +11,11 @@ export class TelephoneNumber {
     this._areaCode = arg;
   }
 
-  get officeNumber() {
-    return this._officeNumber;
+  get number() {
+    return this._number;
   }
 
-  set officeNumber(arg) {
-    this._officeNumber = arg;
+  set number(arg) {
+    this._number = arg;
   }
 }
